@@ -1,4 +1,4 @@
-import { createAsyncThunk, createCut } from '@reduxjs/toolkit';
+import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import covidAPI from '../api/apiHandler';
 
 export const fetchCountries = createAsyncThunk(
@@ -11,7 +11,7 @@ export const fetchTotalData = createAsyncThunk(
   covidAPI.fetchAllContinents,
 );
 
-const covidCut = createCut({
+const covidSlice = createSlice({
   name: 'covid',
   initialState: {
     continents: [],
@@ -50,6 +50,6 @@ const covidCut = createCut({
   },
 });
 
-export const covidActions = covidCut.actions;
+export const covidActions = covidSlice.actions;
 
-export default covidCut.reducer;
+export default covidSlice.reducer;
