@@ -1,70 +1,114 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# COVID-19 DATA HUB
 
-## Available Scripts
+> This is a webapp that display metric data from an API for Covid-19 cases globally
 
-In the project directory, you can run:
+![image]()
+![image]()
+![image]()
 
-### `npm start`
+Interactions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Home page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+When the page loads, the webapp shows the list of categories that could be filtered out by some parameter.
+Along with the category name, it displays some numeric values per category that come from the API.
+When the user clicks (or taps) on a category item, the application navigates to the details page.
 
-### `npm test`
+Details page
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In the details page, the webapp retrieves data from the API to show detailed data in the category.
+When the user clicks on the "Back" button (<), the user navigates to the home page.
 
-### `npm run build`
+## Built With
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Javascript, HTML, CSS
+- React
+- Redux
+- API
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Live Demo
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Live Demo Link](netlify.app/)
 
-### `npm run eject`
+## Project Description
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Click here to watch a [video](comming soon) that gives a brief description of the project
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- To get a local copy up and running follow these simple example steps.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Setup
 
-## Learn More
+- git clone https://github.com/ppmarq1/covid-19-data-hub.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Prerequisites
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Have a working and updated browser.
+- Have a local version control like **git** install on your computer.
+- Have an account and sign in on GitHub, as online/remote version control system.
+- Download waves to check project accessibilty.
 
-### Code Splitting
+### Install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Lighthouse (An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more).
 
-### Analyzing the Bundle Size
+- Webhint (A customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
 
-### Making a Progressive Web App
+- ESlint (A mighty, modern linter that helps you avoid errors and enforce conventions in JavaScript codes)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Create React App
 
-### Advanced Configuration
+- npx create-react-app my-app
+- npm install redux react-redux
+- cd my-app
+- npm run start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Run tests
+
+- **npx hint .** : To test html codes
+- **npx stylelint "**/\*.{css,scss}"\*\* : To test css code
+- **npx eslint .** : To test Eslint Report
+- **npm run test** : To run the tests.
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Go to settings
+- Click on pages
+- Choose your source
+- Choose folder
+- choose a theme(optional)
+- Enforce HTTPS
+- And then save
 
-### `npm run build` fails to minify
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+👤 **Pedro Marques**
+
+- GitHub: https://github.com/ppmarq1
+- Twitter: https://twitter.com/ppmarq1
+- LinkedIn: https://br.linkedin.com/in/pedroalmeidamarques/
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/ppmarq1/covid-19-data-hub/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- UI Inspired by [Nelson Sakwa](<https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)>) on Behance
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
