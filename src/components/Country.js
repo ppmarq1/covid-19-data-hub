@@ -18,7 +18,9 @@ const Country = ({
       data-testid="countryItem"
       className="countryDetails"
       style={{
-        backgroundImage: `{bgColor('aa')} 40%, ${bgColor('cc')} 65%, ${bgColor()} 80%), url(${flag})`,
+        backgroundImage: `linear-gradient(to right, #4286f4, ${bgColor(
+          'aa',
+        )} 40%, ${bgColor('cc')} 65%, ${bgColor()} 80%), url(${flag})`,
         backgroundSize: '33% 98%',
       }}
     >

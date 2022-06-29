@@ -83,7 +83,6 @@ body {
 }
 
 .input-area {
-  size: 30px;
   height: 30px;
   border-radius: 10px;
 }
@@ -230,7 +229,6 @@ ol {
   .countryContainer {
     display: grid;
     grid-template-columns: 50% 50%;
-    padding: 40px 0;
     background-repeat: no-repeat;
     margin: 0 30px;
     font-family: 'Lato', sans-serif;
@@ -241,9 +239,11 @@ ol {
   .countryDetails {
     background-repeat: no-repeat;
     border-radius: 15px;
-    padding-left: 60%;
-    padding-top: 30%;
-    padding-bottom: 30%;
+    padding-left: 30%;
+    height: 80px;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    align-self: center;
   }
 
   .countryCount {

@@ -2,8 +2,9 @@
   background-color: hsla(236, 45%, 36%, 0.521);
   text-align: center;
   background-repeat: no-repeat;
+  margin-bottom: 1%;
   border-radius: 15px;
-  }
+}
 
 .country-card:nth-child(4n + 2),
 .country-card:nth-child(4n + 3) {
