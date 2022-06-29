@@ -67,7 +67,7 @@ const Home = () => {
             </div>
           </form>
           <div>
-            <div className="title-cont">STATS BY CONTINENT</div>
+            <div className="title-cont">CASES BY CONTINENT</div>
           </div>
           <ContinentList continents={list} />
         </>

@@ -34,7 +34,7 @@ body {
 .title {
   color: #fff;
   padding-top: 25px;
-  margin-left: 250px;
+  margin-left: 130px;
   margin-top: 0;
 }
 
@@ -45,7 +45,6 @@ body {
   background-color: hsla(236, 45%, 36%, 0.884);
   padding: 20px 0;
   margin: 0 30px;
-  gap: 10px;
 }
 
 .globe {
@@ -111,7 +110,7 @@ body {
   display: flex;
   flex-direction: column;
   align-self: flex-end;
-  padding-left: 70%;
+  padding-left: 60%;
   padding-bottom: 2%;
   font-family: 'Lato', sans-serif;
   color: #fff;
