@@ -55,7 +55,7 @@ body {
 .count {
   display: flex;
   flex-direction: column;
-  padding-top: 30px;
+  padding-top: 18px;
   font-family: 'Lato', sans-serif;
   color: #fff;
 }
@@ -92,6 +92,7 @@ body {
 
 .arrowButton {
   display: flex;
+  padding-left: 90%;
   align-self: flex-start;
   font-family: 'Lato', sans-serif;
   color: #fff;
@@ -101,6 +102,8 @@ body {
   display: flex;
   flex-direction: column;
   align-self: flex-end;
+  padding-left: 70%;
+  padding-bottom: 2%;
   font-family: 'Lato', sans-serif;
   color: #fff;
 }
@@ -173,6 +176,17 @@ ol {
     gap: 20px;
   }
 
+  .globe {
+    font-size: 60px;
+  }
+
+  .globeDetails {
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    background-color: hsla(236, 45%, 36%, 0.884);
+  }
+
   .title {
     font-size: smaller;
     color: #fff;
@@ -196,6 +210,7 @@ ol {
 
   .arrowButton {
     display: flex;
+    padding-left: 70%;
     align-self: flex-start;
     font-family: 'Lato', sans-serif;
     color: #fff;
@@ -204,6 +219,8 @@ ol {
   .continentText {
     display: flex;
     flex-direction: column;
+    font-size: 15px;
+    padding-left: 10%;
     align-self: flex-end;
     font-family: 'Lato', sans-serif;
     color: #fff;
