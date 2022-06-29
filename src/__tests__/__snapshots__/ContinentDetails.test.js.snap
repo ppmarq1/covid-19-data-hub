@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component Test Rendering countries 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="continentDetails"
+      >
+        <img
+          alt="continent map"
+          class="continentImage"
+          src="Africa.png"
+        />
+        <div
+          class="continentCount"
+        >
+          <span
+            class="continentName"
+          >
+            Africa
+          </span>
+          <span>
+            Total Cases: 0
+          </span>
+          <span>
+            Total Deaths: 0
+          </span>
+        </div>
+      </div>
+      <ul
+        class="countryContainer"
+      >
+        <li
+          class="country-card"
+        >
+          <div
+            class="countryDetails"
+            data-testid="countryItem"
+            style="background-size: 33% 98%;"
+          >
+            <div
+              class="countryCount"
+            >
+              <h4
+                class="countryHeader"
+              >
+                <span
+                  class="countryTitle"
+                >
+                  Algeria
+                </span>
+              </h4>
+              <span
+                class="countryFigures"
+              >
+                1111
+              </span>
+            </div>
+          </div>
+        </li>
+        <li
+          class="country-card"
+        >
+          <div
+            class="countryDetails"
+            data-testid="countryItem"
+            style="background-size: 33% 98%;"
+          >
+            <div
+              class="countryCount"
+            >
+              <h4
+                class="countryHeader"
+              >
+                <span
+                  class="countryTitle"
+                >
+                  Cyprus
+                </span>
+              </h4>
+              <span
+                class="countryFigures"
+              >
+                5555
+              </span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="continentDetails"
+    >
+      <img
+        alt="continent map"
+        class="continentImage"
+        src="Africa.png"
+      />
+      <div
+        class="continentCount"
+      >
+        <span
+          class="continentName"
+        >
+          Africa
+        </span>
+        <span>
+          Total Cases: 0
+        </span>
+        <span>
+          Total Deaths: 0
+        </span>
+      </div>
+    </div>
+    <ul
+      class="countryContainer"
+    >
+      <li
+        class="country-card"
+      >
+        <div
+          class="countryDetails"
+          data-testid="countryItem"
+          style="background-size: 33% 98%;"
+        >
+          <div
+            class="countryCount"
+          >
+            <h4
+              class="countryHeader"
+            >
+              <span
+                class="countryTitle"
+              >
+                Algeria
+              </span>
+            </h4>
+            <span
+              class="countryFigures"
+            >
+              1111
+            </span>
+          </div>
+        </div>
+      </li>
+      <li
+        class="country-card"
+      >
+        <div
+          class="countryDetails"
+          data-testid="countryItem"
+          style="background-size: 33% 98%;"
+        >
+          <div
+            class="countryCount"
+          >
+            <h4
+              class="countryHeader"
+            >
+              <span
+                class="countryTitle"
+              >
+                Cyprus
+              </span>
+            </h4>
+            <span
+              class="countryFigures"
+            >
+              5555
+            </span>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
