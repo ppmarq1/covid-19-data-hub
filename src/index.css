@@ -127,6 +127,7 @@ body {
 .continentCount {
   display: flex;
   flex-direction: column;
+  font-size:x-large;
   gap: 20px;
   padding-top: 40px;
   font-family: 'Lato', sans-serif;
@@ -135,7 +136,6 @@ body {
 
 .countryContainer {
   display: grid;
-  grid-template-columns: auto auto;
   padding: 40px 0;
   background-repeat: no-repeat;
   margin: 0 30px;
@@ -252,6 +252,7 @@ ol {
   .continentCount {
     display: flex;
     flex-direction: column;
+    font-size: large;
     gap: 20px;
     padding-top: 40px;
     font-family: 'Lato', sans-serif;
@@ -260,7 +261,7 @@ ol {
 
   .countryContainer {
     display: grid;
-    grid-template-columns: 50% 50%;
+   grid-template-rows: auto;
     background-repeat: no-repeat;
     margin: 0 30px;
     font-family: 'Lato', sans-serif;
