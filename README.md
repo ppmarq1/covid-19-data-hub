@@ -34,7 +34,7 @@ When the user clicks on the "Back" button (<), the user navigates to the home pa
 
 ## Project Description
 
-Click here to watch a [video](https://www.loom.com/share/5b85672c9c3e4965b969d3bae797fdb1) that gives a brief description of the project
+Click here to watch a [video]() that gives a brief description of the project
 
 ## Getting Started
 

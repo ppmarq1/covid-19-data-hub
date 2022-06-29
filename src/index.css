@@ -9,7 +9,6 @@ body {
   justify-content: space-evenly;
   height: 80px;
   background-color: hsla(236, 45%, 36%, 0.884);
-  border-radius: 15px;
   margin: 0 30px 20px 30px;
   font-family: 'Lato', sans-serif;
   align-content: center;
@@ -45,7 +44,6 @@ body {
   font-size: large;
   background-color: hsla(236, 45%, 36%, 0.884);
   padding: 20px 0;
-  border-radius: 15px;
   margin: 0 30px;
   gap: 10px;
 }
@@ -134,7 +132,6 @@ body {
 
 .countryDetails {
   background-repeat: no-repeat;
-  border-radius: 15px;
   padding-left: 50%;
 }
 
@@ -155,8 +152,7 @@ ol {
     justify-content: space-evenly;
     height: 50px;
     background-color: hsla(236, 45%, 36%, 0.884);
-    border-radius: 15px;
-    margin: 0 70px 20px 30px;
+    margin: 0 30px 20px 30px;
     font-family: 'Lato', sans-serif;
     align-content: center;
   }
@@ -240,7 +236,6 @@ ol {
 
   .countryDetails {
     background-repeat: no-repeat;
-    border-radius: 15px;
     padding-left: 30%;
     height: 80px;
     padding-top: 20%;
