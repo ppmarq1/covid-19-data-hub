@@ -4,9 +4,9 @@
 
 > This is a webapp that display metric data from an API for Covid-19 cases globally
 
-![image]()
-![image]()
-![image]()
+![screenshot](./src/images/homepage.png)
+![screenshot](./src/images/Countrydetails.png)
+![screenshot](./src/images/mobile.png)
 
 Interactions
 

@@ -1,3 +1,4 @@
+/* eslint-disable object-curly-newline, implicit-arrow-linebreak */
 import PropTypes from 'prop-types';
 
 const Country = ({
@@ -17,9 +18,7 @@ const Country = ({
       data-testid="countryItem"
       className="countryDetails"
       style={{
-        backgroundImage: `linear-gradient(to right, #4286f4, ${bgColor(
-          'aa',
-        )} 40%, ${bgColor('cc')} 65%, ${bgColor()} 80%), url(${flag})`,
+        backgroundImage: `{bgColor('aa')} 40%, ${bgColor('cc')} 65%, ${bgColor()} 80%), url(${flag})`,
         backgroundSize: '33% 98%',
       }}
     >

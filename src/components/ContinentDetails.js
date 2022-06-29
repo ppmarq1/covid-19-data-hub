@@ -1,3 +1,4 @@
+/* eslint-disable implicit-arrow-linebreak, function-paren-newline */
 import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import CountUp from 'react-countup';

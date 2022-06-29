@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import styles from './CountryList.module.css';
+
 import Country from './Country';
 
 const CountryList = ({ countries }) => (

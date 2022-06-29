@@ -1,13 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: hsla(256, 100%, 50%, 0.747);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navContainer {
+  display: flex;
+  justify-content: space-evenly;
+  height: 80px;
+  background-color: hsla(236, 45%, 36%, 0.884);
+  border-radius: 15px;
+  margin: 0 30px 20px 30px;
+  font-family: 'Lato', sans-serif;
+  align-content: center;
+}
+
+.backButton {
+  color: #fff;
+  padding-top: 15px;
+  font-size: 25px;
+}
+
+.icons {
+  padding-top: 25px;
+  right: 40px;
+  display: flex;
+  color: #fff;
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+  gap: 20px;
+}
+
+.title {
+  color: #fff;
+  padding-top: 25px;
+  margin-left: 250px;
+  margin-top: 0;
+}
+
+.globeDetails {
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  background-color: hsla(236, 45%, 36%, 0.884);
+  padding: 20px 0;
+  border-radius: 15px;
+  margin: 0 30px;
+  gap: 10px;
+}
+
+.globe {
+  font-size: 100px;
+}
+
+.count {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+}
+
+.continentContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 0;
+  margin: 0 30px;
+}
+
+.continentImage {
+  max-width: 300px;
+  max-height: 300px;
+  opacity: 0.5;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.input-area {
+  size: 30px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.searchButton {
+  padding: 0 5px;
+}
+
+.arrowButton {
+  display: flex;
+  align-self: flex-start;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+}
+
+.continentText {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+}
+
+.continentDetails {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.continentCount {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 40px;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+}
+
+.countryContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 40px 0;
+  background-repeat: no-repeat;
+  margin: 0 30px;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+}
+
+.countryDetails {
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  padding-left: 50%;
+}
+
+.countryCount {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  .navContainer {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    background-color: hsla(236, 45%, 36%, 0.884);
+    border-radius: 15px;
+    margin: 0 40px 20px 30px;
+    font-family: 'Lato', sans-serif;
+    align-content: center;
+  }
+
+  .backButton {
+    color: #fff;
+    font-size: 25px;
+    padding-top: 15px;
+  }
+
+  .icons {
+    padding-top: 15px;
+    display: flex;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    gap: 20px;
+  }
+
+  .title {
+    font-size: smaller;
+    color: #fff;
+    padding-top: 15px;
+    margin: 0;
+  }
+
+  .continentContainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0;
+    margin: 0 30px;
+    max-width: 100vw;
+  }
+
+  .continentImage {
+    width: 50%;
+    max-height: 50%;
+    opacity: 0.5;
+  }
+
+  .arrowButton {
+    display: flex;
+    align-self: flex-start;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+  }
+
+  .continentText {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+  }
+
+  .continentDetails {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .continentCount {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 40px;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+  }
+
+  .countryContainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 40px 0;
+    background-repeat: no-repeat;
+    margin: 0 30px;
+    font-family: 'Lato', sans-serif;
+    font-size: small;
+    color: #fff;
+  }
+
+  .countryDetails {
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    padding-left: 60%;
+    padding-top: 30%;
+    padding-bottom: 30%;
+  }
+
+  .countryCount {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+  }
 }
