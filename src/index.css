@@ -60,6 +60,15 @@ body {
   color: #fff;
 }
 
+.title-cont {
+  color: #fff;
+  font-size: x-large;
+  font-family: 'Lato', sans-serif;
+  padding-top: 25px;
+  padding-left: 35px;
+  margin-top: 0;
+}
+
 .continentContainer {
   display: grid;
   grid-template-columns: auto auto;
@@ -192,6 +201,13 @@ ol {
     color: #fff;
     padding-top: 15px;
     margin: 0;
+  }
+
+  .title-cont {
+    font-size: large;
+    padding-top: 25px;
+    padding-left: 35px;
+    margin-top: 0;
   }
 
   .continentContainer {
