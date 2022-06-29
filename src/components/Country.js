@@ -29,6 +29,7 @@ const Country = ({
           <span className="countryTitle">{country}</span>
         </h4>
         <span className="countryFigures">{cases.toLocaleString()}</span>
+        <span className="countryTextCases">cases</span>
       </div>
     </div>
   );

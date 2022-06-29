@@ -63,6 +63,7 @@ body {
 .title-cont {
   color: #fff;
   font-size: x-large;
+  font-weight: 600;
   font-family: 'Lato', sans-serif;
   padding-top: 25px;
   padding-left: 35px;
@@ -127,7 +128,7 @@ body {
 .continentCount {
   display: flex;
   flex-direction: column;
-  font-size:x-large;
+  font-size: x-large;
   gap: 20px;
   padding-top: 40px;
   font-family: 'Lato', sans-serif;
@@ -137,6 +138,7 @@ body {
 .countryContainer {
   display: grid;
   padding: 40px 0;
+  font-size: x-large;
   background-repeat: no-repeat;
   margin: 0 30px;
   font-family: 'Lato', sans-serif;
@@ -145,13 +147,31 @@ body {
 
 .countryDetails {
   background-repeat: no-repeat;
-  padding-left: 50%;
+  justify-content: center;
+  padding-left: 35%;
+  align-self: center;
 }
 
 .countryCount {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.countryFigures {
+  display: flex;
   flex-direction: column;
-  justify-content: right;
+  padding-left: 30%;
+  padding-right: 10%;
+  justify-content: center;
+}
+
+.countryTextCases {
+  display: flex;
+  flex-direction: column;
+  padding-right: 5%;
+  justify-content: center;
 }
 
 ul,
@@ -194,7 +214,7 @@ ol {
     display: flex;
     justify-content: center;
     font-size: small;
-    background-color:  #5688e4;
+    background-color: #5688e4;
   }
 
   .title {
@@ -205,9 +225,10 @@ ol {
   }
 
   .title-cont {
-    font-size: large;
+    font-size: medium;
     padding-top: 25px;
     padding-left: 35px;
+    font-weight: 600;
     margin-top: 0;
   }
 
@@ -243,12 +264,6 @@ ol {
     color: #fff;
   }
 
-  .continentDetails {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-
   .continentCount {
     display: flex;
     flex-direction: column;
@@ -261,7 +276,7 @@ ol {
 
   .countryContainer {
     display: grid;
-   grid-template-rows: auto;
+    grid-template-rows: auto;
     background-repeat: no-repeat;
     margin: 0 30px;
     font-family: 'Lato', sans-serif;
@@ -271,16 +286,33 @@ ol {
 
   .countryDetails {
     background-repeat: no-repeat;
-    padding-left: 30%;
-    height: 80px;
-    padding-top: 20%;
+    padding-left: 38%;
+    height: 5px;
+    padding-top: 10%;
     padding-bottom: 20%;
     align-self: center;
+    justify-content: center;
   }
 
   .countryCount {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+  }
+
+  .countryFigures {
+    display: flex;
     flex-direction: column;
-    justify-content: right;
+    padding-left: 15%;
+    padding-right: 5%;
+    justify-content: center;
+  }
+
+  .countryTextCases {
+    display: flex;
+    flex-direction: column;
+    padding-right: 5%;
+    justify-items: center;
   }
 }
