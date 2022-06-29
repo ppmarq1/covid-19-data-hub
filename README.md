@@ -30,7 +30,7 @@ When the user clicks on the "Back" button (<), the user navigates to the home pa
 
 ## Live Demo
 
-[Live Demo Link](netlify.app/)
+[Live Demo Link](https://cool-bavarois-7aa72a.netlify.app/)
 
 ## Project Description
 
