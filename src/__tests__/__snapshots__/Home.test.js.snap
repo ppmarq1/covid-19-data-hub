@@ -1,0 +1,818 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component Test Rendering continents 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="globeDetails"
+      >
+        <svg
+          class="globe"
+          color="white"
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          style="color: white;"
+          viewBox="0 0 512 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48z"
+            fill="none"
+            stroke-miterlimit="10"
+            stroke-width="44"
+          />
+          <path
+            d="M256 48c-58.07 0-112.67 93.13-112.67 208S197.93 464 256 464s112.67-93.13 112.67-208S314.07 48 256 48z"
+            fill="none"
+            stroke-miterlimit="10"
+            stroke-width="44"
+          />
+          <path
+            d="M117.33 121.33c38.24 27.15 86.38 43.34 138.67 43.34s100.43-16.19 138.67-43.34m0 269.34c-38.24-27.15-86.38-43.34-138.67-43.34s-100.43 16.19-138.67 43.34"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="44"
+          />
+          <path
+            d="M256 48v416m208-208H48"
+            fill="none"
+            stroke-miterlimit="10"
+            stroke-width="44"
+          />
+        </svg>
+        <div
+          class="count"
+        >
+          <span>
+            Total Cases: 0
+          </span>
+          <span>
+            Total Deaths: 0
+          </span>
+        </div>
+      </div>
+      <form
+        class="form"
+      >
+        <div
+          class="search-bar"
+        >
+          <div>
+            <input
+              class="input-area"
+              placeholder="Search"
+              size="25"
+              type="text"
+              value=""
+            />
+            <svg
+              class="searchButton"
+              color="white"
+              fill="currentColor"
+              height="20"
+              stroke="currentColor"
+              stroke-width="0"
+              style="color: white;"
+              viewBox="0 0 512 512"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+              />
+            </svg>
+          </div>
+        </div>
+      </form>
+      <ul
+        class="continentContainer"
+      >
+        <li
+          class="continent-card"
+        >
+          <a
+            class="continentElement"
+            data-testid="continentItem"
+            href="/Asia"
+          >
+            <svg
+              class="arrowButton"
+              fill="currentColor"
+              height="30"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 16 16"
+              width="30"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                fill-rule="evenodd"
+              />
+            </svg>
+            <img
+              alt="continent map"
+              class="continentImage"
+              src="Asia.png"
+            />
+            <div
+              class="continentText"
+            >
+              <h4
+                class=""
+              >
+                <span
+                  class=""
+                >
+                  Asia
+                </span>
+              </h4>
+              <span
+                class=""
+              >
+                11.111
+              </span>
+            </div>
+          </a>
+        </li>
+        <li
+          class="continent-card"
+        >
+          <a
+            class="continentElement"
+            data-testid="continentItem"
+            href="/Africa"
+          >
+            <svg
+              class="arrowButton"
+              fill="currentColor"
+              height="30"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 16 16"
+              width="30"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                fill-rule="evenodd"
+              />
+            </svg>
+            <img
+              alt="continent map"
+              class="continentImage"
+              src="Africa.png"
+            />
+            <div
+              class="continentText"
+            >
+              <h4
+                class=""
+              >
+                <span
+                  class=""
+                >
+                  Africa
+                </span>
+              </h4>
+              <span
+                class=""
+              >
+                22.222
+              </span>
+            </div>
+          </a>
+        </li>
+        <li
+          class="continent-card"
+        >
+          <a
+            class="continentElement"
+            data-testid="continentItem"
+            href="/Europe"
+          >
+            <svg
+              class="arrowButton"
+              fill="currentColor"
+              height="30"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 16 16"
+              width="30"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                fill-rule="evenodd"
+              />
+            </svg>
+            <img
+              alt="continent map"
+              class="continentImage"
+              src="Europe.png"
+            />
+            <div
+              class="continentText"
+            >
+              <h4
+                class=""
+              >
+                <span
+                  class=""
+                >
+                  Europe
+                </span>
+              </h4>
+              <span
+                class=""
+              >
+                33.333
+              </span>
+            </div>
+          </a>
+        </li>
+        <li
+          class="continent-card"
+        >
+          <a
+            class="continentElement"
+            data-testid="continentItem"
+            href="/Australia-Oceania"
+          >
+            <svg
+              class="arrowButton"
+              fill="currentColor"
+              height="30"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 16 16"
+              width="30"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                fill-rule="evenodd"
+              />
+            </svg>
+            <img
+              alt="continent map"
+              class="continentImage"
+              src="Australia-Oceania.png"
+            />
+            <div
+              class="continentText"
+            >
+              <h4
+                class=""
+              >
+                <span
+                  class=""
+                >
+                  Australia-Oceania
+                </span>
+              </h4>
+              <span
+                class=""
+              >
+                44.444
+              </span>
+            </div>
+          </a>
+        </li>
+        <li
+          class="continent-card"
+        >
+          <a
+            class="continentElement"
+            data-testid="continentItem"
+            href="/North America"
+          >
+            <svg
+              class="arrowButton"
+              fill="currentColor"
+              height="30"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 16 16"
+              width="30"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                fill-rule="evenodd"
+              />
+            </svg>
+            <img
+              alt="continent map"
+              class="continentImage"
+              src="North America.png"
+            />
+            <div
+              class="continentText"
+            >
+              <h4
+                class=""
+              >
+                <span
+                  class=""
+                >
+                  North America
+                </span>
+              </h4>
+              <span
+                class=""
+              >
+                55.555
+              </span>
+            </div>
+          </a>
+        </li>
+        <li
+          class="continent-card"
+        >
+          <a
+            class="continentElement"
+            data-testid="continentItem"
+            href="/South America"
+          >
+            <svg
+              class="arrowButton"
+              fill="currentColor"
+              height="30"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 16 16"
+              width="30"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+                fill-rule="evenodd"
+              />
+            </svg>
+            <img
+              alt="continent map"
+              class="continentImage"
+              src="South America.png"
+            />
+            <div
+              class="continentText"
+            >
+              <h4
+                class=""
+              >
+                <span
+                  class=""
+                >
+                  South America
+                </span>
+              </h4>
+              <span
+                class=""
+              >
+                66.666
+              </span>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="globeDetails"
+    >
+      <svg
+        class="globe"
+        color="white"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="0"
+        style="color: white;"
+        viewBox="0 0 512 512"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48z"
+          fill="none"
+          stroke-miterlimit="10"
+          stroke-width="44"
+        />
+        <path
+          d="M256 48c-58.07 0-112.67 93.13-112.67 208S197.93 464 256 464s112.67-93.13 112.67-208S314.07 48 256 48z"
+          fill="none"
+          stroke-miterlimit="10"
+          stroke-width="44"
+        />
+        <path
+          d="M117.33 121.33c38.24 27.15 86.38 43.34 138.67 43.34s100.43-16.19 138.67-43.34m0 269.34c-38.24-27.15-86.38-43.34-138.67-43.34s-100.43 16.19-138.67 43.34"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="44"
+        />
+        <path
+          d="M256 48v416m208-208H48"
+          fill="none"
+          stroke-miterlimit="10"
+          stroke-width="44"
+        />
+      </svg>
+      <div
+        class="count"
+      >
+        <span>
+          Total Cases: 0
+        </span>
+        <span>
+          Total Deaths: 0
+        </span>
+      </div>
+    </div>
+    <form
+      class="form"
+    >
+      <div
+        class="search-bar"
+      >
+        <div>
+          <input
+            class="input-area"
+            placeholder="Search"
+            size="25"
+            type="text"
+            value=""
+          />
+          <svg
+            class="searchButton"
+            color="white"
+            fill="currentColor"
+            height="20"
+            stroke="currentColor"
+            stroke-width="0"
+            style="color: white;"
+            viewBox="0 0 512 512"
+            width="20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+            />
+          </svg>
+        </div>
+      </div>
+    </form>
+    <ul
+      class="continentContainer"
+    >
+      <li
+        class="continent-card"
+      >
+        <a
+          class="continentElement"
+          data-testid="continentItem"
+          href="/Asia"
+        >
+          <svg
+            class="arrowButton"
+            fill="currentColor"
+            height="30"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 16 16"
+            width="30"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <img
+            alt="continent map"
+            class="continentImage"
+            src="Asia.png"
+          />
+          <div
+            class="continentText"
+          >
+            <h4
+              class=""
+            >
+              <span
+                class=""
+              >
+                Asia
+              </span>
+            </h4>
+            <span
+              class=""
+            >
+              11.111
+            </span>
+          </div>
+        </a>
+      </li>
+      <li
+        class="continent-card"
+      >
+        <a
+          class="continentElement"
+          data-testid="continentItem"
+          href="/Africa"
+        >
+          <svg
+            class="arrowButton"
+            fill="currentColor"
+            height="30"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 16 16"
+            width="30"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <img
+            alt="continent map"
+            class="continentImage"
+            src="Africa.png"
+          />
+          <div
+            class="continentText"
+          >
+            <h4
+              class=""
+            >
+              <span
+                class=""
+              >
+                Africa
+              </span>
+            </h4>
+            <span
+              class=""
+            >
+              22.222
+            </span>
+          </div>
+        </a>
+      </li>
+      <li
+        class="continent-card"
+      >
+        <a
+          class="continentElement"
+          data-testid="continentItem"
+          href="/Europe"
+        >
+          <svg
+            class="arrowButton"
+            fill="currentColor"
+            height="30"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 16 16"
+            width="30"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <img
+            alt="continent map"
+            class="continentImage"
+            src="Europe.png"
+          />
+          <div
+            class="continentText"
+          >
+            <h4
+              class=""
+            >
+              <span
+                class=""
+              >
+                Europe
+              </span>
+            </h4>
+            <span
+              class=""
+            >
+              33.333
+            </span>
+          </div>
+        </a>
+      </li>
+      <li
+        class="continent-card"
+      >
+        <a
+          class="continentElement"
+          data-testid="continentItem"
+          href="/Australia-Oceania"
+        >
+          <svg
+            class="arrowButton"
+            fill="currentColor"
+            height="30"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 16 16"
+            width="30"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <img
+            alt="continent map"
+            class="continentImage"
+            src="Australia-Oceania.png"
+          />
+          <div
+            class="continentText"
+          >
+            <h4
+              class=""
+            >
+              <span
+                class=""
+              >
+                Australia-Oceania
+              </span>
+            </h4>
+            <span
+              class=""
+            >
+              44.444
+            </span>
+          </div>
+        </a>
+      </li>
+      <li
+        class="continent-card"
+      >
+        <a
+          class="continentElement"
+          data-testid="continentItem"
+          href="/North America"
+        >
+          <svg
+            class="arrowButton"
+            fill="currentColor"
+            height="30"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 16 16"
+            width="30"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <img
+            alt="continent map"
+            class="continentImage"
+            src="North America.png"
+          />
+          <div
+            class="continentText"
+          >
+            <h4
+              class=""
+            >
+              <span
+                class=""
+              >
+                North America
+              </span>
+            </h4>
+            <span
+              class=""
+            >
+              55.555
+            </span>
+          </div>
+        </a>
+      </li>
+      <li
+        class="continent-card"
+      >
+        <a
+          class="continentElement"
+          data-testid="continentItem"
+          href="/South America"
+        >
+          <svg
+            class="arrowButton"
+            fill="currentColor"
+            height="30"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 16 16"
+            width="30"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <img
+            alt="continent map"
+            class="continentImage"
+            src="South America.png"
+          />
+          <div
+            class="continentText"
+          >
+            <h4
+              class=""
+            >
+              <span
+                class=""
+              >
+                South America
+              </span>
+            </h4>
+            <span
+              class=""
+            >
+              66.666
+            </span>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

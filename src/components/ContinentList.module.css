@@ -1,0 +1,11 @@
+.continent-card {
+  padding-left: 20%;
+  background-color: hsla(236, 45%, 36%, 0.521);
+  max-width: 100%;
+  font-size: large;
+}
+
+.continent-card:nth-child(4n + 2),
+.continent-card:nth-child(4n + 3) {
+  background-color: hsla(236, 45%, 36%, 0.884);
+}

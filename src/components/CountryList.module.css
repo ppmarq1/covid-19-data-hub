@@ -1,0 +1,9 @@
+.country-card {
+  background-color: hsla(236, 45%, 36%, 0.521);
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+.country-card:nth-child(2n + 1) {
+  background-color: hsla(236, 45%, 36%, 0.884);
+}
